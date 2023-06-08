@@ -10,7 +10,7 @@ const SquareColors = () => {
 	return (
     <>
     <StyledDiv color={color}> </StyledDiv>
-    <Button text="Cambiar Color" handleClick={()=>changeColor(color, setColor)} />
+    <Button text="Cambiar" handleClick={()=>changeColor(color, setColor)} />
     </>
     
     );
